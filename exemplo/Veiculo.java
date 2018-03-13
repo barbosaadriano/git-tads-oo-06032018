@@ -31,6 +31,7 @@ public class Veiculo {
 			if (kmTemporario >= fator) {
 				kmTemporario = 0L;
 				nivelTanque--;
+				System.out.print("|");
 			}
 			try {
 				Thread.sleep(2);	
